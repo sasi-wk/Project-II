@@ -43,7 +43,7 @@
               <div class="w3-row">
                 <div class="w3-container w3-col w3-white" style="width:70%">
                   <div class="w3-container w3-cell w3-cell-middle w3-white">
-                    <img src="assets/image/logo8.gif" class="w3-round-small" alt="address" width="80" height="120" />
+                    <img src="Content/Image/logo8.gif" class="w3-round-small" alt="logoPSU" width="80" height="120" />
                   </div>
                   <div class="w3-container w3-cell w3-cell-middle w3-white">
                     <h2>ทุนการศึกษา</h2>
@@ -53,17 +53,17 @@
                 <div class="w3-container w3-col" style="width:30%">
                   <div class="w3-row">
                     <div class="w3-container w3-cell  w3-right">
-                      <img src="assets/image/abc.jpg" class="w3-round-small" alt="address" width="100" height="70" />
-                      <img src="assets/image/kys.jpg" class="w3-round-small" alt="address" width="100" height="70" />
+                      <img src="Content/Image/abc.jpg" class="w3-round-small" alt="lone1" width="100" height="70" />
+                      <img src="Content/Image/kys.jpg" class="w3-round-small" alt="lone2" width="100" height="70" />
                     </div>
                   </div>
                   <div class="w3-row">   
                     <div class="w3-half  w3-container" ><p></p></div>   
                     <div class="w3-half w3-container">
                         <div class="w3-container w3-cell">
-                            <img src="assets/image/facebook.png" class="w3-round-small" alt="address" width="30" height="30" />
-                            <img src="assets/image/youtube.png" class="w3-round-small" alt="address" width="30" height="30" />
-                            <img src="assets/image/email.png" class="w3-round-small" alt="address" width="30" height="30" />
+                            <img src="Content/Image/facebook.png" class="w3-round-small" alt="address" width="30" height="30" />
+                            <img src="Content/Image/youtube.png" class="w3-round-small" alt="address" width="30" height="30" />
+                            <img src="Content/Image/email.png" class="w3-round-small" alt="address" width="30" height="30" />
                           </div>
                     </div>     
                   </div>
@@ -86,7 +86,7 @@
                   <!--address !-->
                   <div class="w3-third w3-container w3-lime">
                     <div class="w3-container w3-cell w3-cell-middle">
-                      <img src="assets/image/building.png" class="w3-round-small" alt="address" width="40" height="40" />
+                      <img src="Content/Image/building.png" class="w3-round-small" alt="address" width="40" height="40" />
                     </div>
                     <div class="w3-container w3-cell">
                       <p>กองกิจการนักศึกษา</p>
@@ -101,7 +101,7 @@
                       <img src="Content/Image/call-center.png" class="w3-round-small" alt="address" width="40" height="40" />
                       <br/>
                       <br/>
-                      <img src="/image/envelope.png" class="w3-round-small" alt="address" width="40" height="40" />
+                      <img src="Content/Image/envelope.png" class="w3-round-small" alt="address" width="40" height="40" />
                     </div>
                     <div class="w3-container w3-cell">
                       <p>กยศ. Call Center</p>
@@ -112,7 +112,7 @@
                   <!--clock !-->
                   <div class="w3-third w3-container w3-lime">
                     <div class="w3-container w3-cell w3-cell-middle">
-                      <img src="assets/image/clock.png" class="w3-round-small" alt="address" width="40" height="40" />
+                      <img src="Content/Image/clock.png" class="w3-round-small" alt="address" width="40" height="40" />
                     </div>
                     <div class="w3-container w3-cell">
                       <p>เวลาทำการ</p>
