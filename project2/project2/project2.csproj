@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -200,8 +201,45 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Image\abc.jpg" />
+    <Content Include="Content\Image\building.png" />
+    <Content Include="Content\Image\call-center.png" />
+    <Content Include="Content\Image\clock.png" />
+    <Content Include="Content\Image\edit.png" />
+    <Content Include="Content\Image\email.png" />
+    <Content Include="Content\Image\envelope.png" />
+    <Content Include="Content\Image\facebook.png" />
+    <Content Include="Content\Image\img_avatar2.png" />
+    <Content Include="Content\Image\img_avatar5.png" />
+    <Content Include="Content\Image\img_avatar6.png" />
+    <Content Include="Content\Image\kys.jpg" />
+    <Content Include="Content\Image\logo8.gif" />
+    <Content Include="Content\Image\m.png" />
+    <Content Include="Content\Image\s1.jpg" />
+    <Content Include="Content\Image\s1.png" />
+    <Content Include="Content\Image\s10.jpg" />
+    <Content Include="Content\Image\s2.jpg" />
+    <Content Include="Content\Image\s2.png" />
+    <Content Include="Content\Image\s3.jpg" />
+    <Content Include="Content\Image\s3.png" />
+    <Content Include="Content\Image\s4.jpg" />
+    <Content Include="Content\Image\s4.png" />
+    <Content Include="Content\Image\s5.jpg" />
+    <Content Include="Content\Image\s5.png" />
+    <Content Include="Content\Image\s6.jpg" />
+    <Content Include="Content\Image\s7.jpg" />
+    <Content Include="Content\Image\s8.jpg" />
+    <Content Include="Content\Image\s9.jpg" />
+    <Content Include="Content\Image\student_loan_ipemk.png" />
+    <Content Include="Content\Image\t.png" />
+    <Content Include="Content\Image\view.png" />
+    <Content Include="Content\Image\w1.jpg" />
+    <Content Include="Content\Image\w2.jpg" />
+    <Content Include="Content\Image\w3.jpg" />
+    <Content Include="Content\Image\youtube.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\w3.css" />
+    <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -376,6 +414,16 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+>>>>>>> NewDesign
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -406,7 +454,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Image\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -11,7 +11,11 @@ namespace project2
 {
 
 
+<<<<<<< HEAD
     public partial class _Default
+=======
+    public partial class Default
+>>>>>>> NewDesign
     {
     }
 }

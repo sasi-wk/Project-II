@@ -13,7 +13,8 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="~/Content/w3.css">
+    <link rel="stylesheet" href="~/Content/w3.css"/>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" media="screen"/>
 
 </head>
 <body>
@@ -39,8 +40,12 @@
             </Scripts>
         </asp:ScriptManager>
 
-            <!--head!-->
-              <div class="w3-row">
+           <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <!--head!-->
+              <div class="row">
                 <div class="w3-container w3-col w3-white" style="width:70%">
                   <div class="w3-container w3-cell w3-cell-middle w3-white">
                     <img src="assets/image/logo8.gif" class="w3-round-small" alt="address" width="80" height="120" />
@@ -69,7 +74,7 @@
                   </div>
                 </div>
               </div>
-              <!--navigation!-->
+                <!--navigation!-->
               <div class="w3-bar w3-lime">
                 <a style="width:20%" href="#" class="w3-bar-item w3-button">ทุนทั่วไป</a>
                 <a style="width:20%" href="#" class="w3-bar-item w3-button">ทุน กยศ.</a>
@@ -77,11 +82,20 @@
                 <a style="width:20%" href="#" class="w3-bar-item w3-button">ถาม-ตอบ</a>
                 <a style="width:20%" href="#" class="w3-bar-item w3-button">ติดต่อเรา</a>
               </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
+        </div>
+
+        <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <footer>
                   <div class="w3-row w3-lime">
                   <!--address !-->
                   <div class="w3-third w3-container w3-lime">
@@ -124,13 +138,14 @@
                 <div class="w3-row">
                   <div class="w3-third w3-container"></div>
                   <div class="w3-third w3-container">
-                    <p>&copy;Prince of Songkla University, Phuket Camppus</p>
+                    <p>&copy;Prince of Songkla University, Phuket Campus</p>
                   </div>
                   <div class="w3-third w3-container"></div>
                 </div>
-
             </footer>
-        </div>
+            </div>
+            <div class="col-md-2">
+            </div>
     </form>
 </body>
 </html>
