@@ -2,15 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
         <div class="w3-content w3-section" style="max-width:1000px">
-            <img class="mySlides" src="Content/Image/s1.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s2.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s3.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s4.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s5.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s6.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s7.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s8.jpg" style="width:100%"/>
-            <img class="mySlides" src="Content/Image/s9.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s1.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s2.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s3.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s4.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s5.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s6.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s7.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s8.jpg" style="width:100%"/>
+            <img class="mySlides" src="Content/SlideShow/s9.jpg" style="width:100%"/>
         </div>
     </div>
     <div class="row">
