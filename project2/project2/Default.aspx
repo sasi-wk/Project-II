@@ -14,38 +14,43 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
             <div class="row">
-                <a href="#" class="btn btn-default" role="button">กองทุนให้กู้ยืมเพื่อการศึกษา</a>
+                <asp:Button ID="Button1" runat="server" Text="กองทุนให้กู้ยืมเพื่อการศึกษา" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
             </div>
+            <br />
             <div class="row">
-                <a href="#" class="btn btn-default" role="button">ตรวจสอบโอนเงินและยอดหนี้</a>
+                <asp:Button ID="Button2" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
             </div>
+            <br />
             <div class="row">
-                <a href="#" class="btn btn-default" role="button">ตรวจสอบโอนเงินและยอดหนี้</a>
+                <asp:Button ID="Button3" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
             </div>
+            <br />
             <div class="row">
-                <a href="#" class="btn btn-default" role="button">กองกิจการนักศึกษา มอ. ภูเก็ต</a>
+                <asp:Button ID="Button4" runat="server" Text="กองกิจการนักศึกษา มอ. ภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
             </div>
+            <br />
             <div class="row">
-                <a href="#" class="btn btn-default" role="button">มอ. วิทยาเขตภูเก็ต</a>
+                <asp:Button ID="Button5" runat="server" Text="มอ. วิทยาเขตภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
             </div>
         </div>
-        <div class="col-md-4">
-            <h1>test</h1>
+        <div class="col-md-7">
+            <h1>News</h1>
         </div>
-        <div class="col-md-4">
-            <h1>test</h1>
+        <div class="col-md-3">
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
         </div>
-        <div class="col-md-4">
-            <img src="Content/Image/w1.jpg" class="img-responsive col-md-6" alt="Responsive image"/>
-            <img src="Content/Image/w2.jpg" class="img-responsive col-md-6" alt="Responsive image"/>
+        <div class="col-md-7">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Content/Image/w1.jpg" CssClass="img-responsive col-md-4" />
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/Content/Image/w2.jpg" CssClass="img-responsive col-md-4" />
+            <asp:Image ID="Image3" runat="server" ImageUrl="~/Content/Image/w3.jpg" CssClass="img-responsive col-md-4" />
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
         </div>
     </div>
     <script>
