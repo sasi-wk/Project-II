@@ -18,5 +18,23 @@ namespace project2
         {
 
         }
+
+        protected void BtnSearch_Click(object sender, EventArgs e)
+        {
+            string Name = TxtName.Text;
+            string Filter = "";
+
+            //Colum of data table
+            if (Name != "") { Filter = Filter + "name like '%" + Name + "%' and "; }
+
+            //Add filter expression of datasource
+            if (Filter.Length > 0)
+            {
+                string FinalFilter = Filter.Remove(Filter.Length - 4, 3);
+                authPermission.FilterExpression = FinalFilter;
+            }else {
+                GridView2.DataBind();
+            }
+        }
     }
 }

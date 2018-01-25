@@ -13,10 +13,28 @@
             <br />
             <br />
             <br />
-            <asp:Login ID="Login1" runat="server" UserNameLabelText="PSU Passport:" BackColor="#E8E8E8" BorderColor="#BCC846" BorderPadding="20" Height="152px" Width="310px" Font-Bold="True">
-                <CheckBoxStyle Font-Bold="False" />
-                <LoginButtonStyle BackColor="#BCC846" Font-Bold="True" />
-            </asp:Login>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading w3-center w3-lime">ลงชื่อเข้าใช้</div>
+                            <div class="panel-body">
+                                <asp:Login ID="Login1" runat="server" UserNameLabelText="PSU Passport:" Height="152px" Width="100%" Font-Bold="True" BorderStyle="None" TitleText="">
+                                    <CheckBoxStyle Font-Bold="False" />
+                                    <InstructionTextStyle BorderStyle="None" />
+                                    <LoginButtonStyle BackColor="#BCC846" Font-Bold="True" BorderStyle="None" />
+                                    <TitleTextStyle BorderStyle="None" />
+                                </asp:Login>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+
             <br />
             <br />
             <br />
