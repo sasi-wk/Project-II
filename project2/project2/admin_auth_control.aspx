@@ -12,6 +12,11 @@
                         <div class="panel panel-default">
                             <div class="panel-heading w3-center w3-lime">กำหนดสิทธิ์เจ้าหน้าที่คุมงาน</div>
                             <div class="panel-body">
+                                <div class="w3-center">
+                                    <asp:TextBox ID="TxtName" runat="server"></asp:TextBox>
+                                    <asp:Button ID="BtnSearch" runat="server" Text="ค้นหา" OnClick="BtnSearch_Click" />
+                                </div>
+                                <br />
                                 <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="authPermission" BorderStyle="None" CssClass="table-responsive" GridLines="None" ShowHeader="False" Width="100%">
                                     <Columns>
                                         <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
@@ -22,6 +27,10 @@
                                     </Columns>
                                     <RowStyle BorderStyle="None" />
                                 </asp:GridView>
+                                <br />
+                                <div class="w3-center">
+                                    <asp:Button ID="BtnSave" runat="server" Text="บันทีก" />
+                                </div>
                                
                                 <asp:SqlDataSource ID="authPermission" runat="server" ConnectionString="<%$ ConnectionStrings:psustfdbConnectionString %>" 
                                     DeleteCommand="DELETE FROM [auth] WHERE [Id] = @Id"
@@ -53,10 +62,7 @@
                 </div>
             </div>
 
-                <div class="w3-center">
-                    <asp:TextBox ID="TxtName" runat="server"></asp:TextBox>
-                    <asp:Button ID="BtnSearch" runat="server" Text="ค้นหา" OnClick="BtnSearch_Click" />
-                </div>
+
             </div>
         <div class="col-md-3"></div>
     </div>

@@ -12,8 +12,16 @@
                         <div class="panel panel-default">
                             <div class="panel-heading w3-center w3-lime">กำหนดสิทธิ์เจ้าหน้าที่งานทุน</div>
                             <div class="panel-body">
-                                
-                                
+                                <div class="w3-center">
+                                    <asp:TextBox ID="TxtNameStaff" runat="server"></asp:TextBox>
+                                    <asp:Button ID="BtnSearchStaff" runat="server" Text="ค้นหา" />
+                                </div>
+                                <br />
+                                <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+                                <br />
+                                <div class="w3-center">
+                                    <asp:Button ID="BtnSave" runat="server" Text="บันทีก" />
+                                </div>
                             </div>
                         </div>
                     </div>
