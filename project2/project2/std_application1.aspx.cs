@@ -13,5 +13,15 @@ namespace project2
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ImageButton_nextpage_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }
