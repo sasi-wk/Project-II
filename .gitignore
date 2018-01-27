@@ -1,0 +1,13 @@
+
+*.config
+project2/.vs/project2/v15/.suo
+*.ide
+*.ide-shm
+*.ide-wal
+*.dll
+*.pdb
+*.cache
+*.dll
+*.txt
+*.cache
+*.csproj
