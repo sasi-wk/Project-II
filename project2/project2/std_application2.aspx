@@ -123,7 +123,7 @@
                             <div class="w3-quarter">
                                 <p class="w3-tooltip">
                                     <span style="position: absolute; right: -20px; bottom: 10px" class="w3-text w3-tag">หน้าถัดไป</span>
-                                    <asp:ImageButton ID="ImageButton_next" ImageAlign="Right" ImageUrl="~/Content/Image/right-arrow.png" runat="server" />
+                                    <asp:ImageButton ID="ImageButton_next" runat="server" ImageAlign="Right" ImageUrl="~/Content/Image/right-arrow.png" />
                                 </p>
                             </div>
                         </div>
