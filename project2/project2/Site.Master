@@ -117,6 +117,7 @@
         <div class="col-md-2">
             </div>
             <div class="col-md-8">
+                <%-- 
                 <footer>
                   <div class="w3-row w3-lime">
                   <!--address !-->
@@ -164,7 +165,55 @@
                   </div>
                   <div class="w3-third w3-container"></div>
                 </div>
-            </footer>
+            </footer> --%>
+              
+            <!--Footer-->
+            <footer class="page-footer center-on-small-only">
+                <div class="container-fluid w3-lime">
+                <br />
+                   <div class="row">
+                        <div class="col-md-4">
+                            <div class="w3-container w3-cell w3-cell-middle">
+                              <img src="content/image/building.png" class="w3-round-small" alt="address" width="40" height="40" />
+                            </div>
+                            <div class="w3-container w3-cell">
+                              <p>กองกิจการนักศึกษา</p>
+                              <p>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต</p>
+                              <p>เลขที่ 80 หมู่ 1 ถ.วิชิตสงคราม ต.กะทู้ อ.กะทู้ จ.ภูเก็ต 83120</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="w3-container w3-cell">
+                              <img src="content/image/call-center.png" class="w3-round-small" alt="address" width="40" height="40" />
+                              <br />
+                              <br />
+                              <img src="content/image/envelope.png" class="w3-round-small" alt="address" width="40" height="40" />
+                            </div>
+                            <div class="w3-container w3-cell">
+                              <p>กยศ. Call Center</p>
+                              <p>0-7627-6061</p>
+                                <br />
+                              <p>Student_Development@phuket.psu.ac.th</p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="w3-container w3-cell w3-cell-middle">
+                              <img src="content/image/clock.png" class="w3-round-small" alt="address" width="40" height="40" />
+                            </div>
+                            <div class="w3-container w3-cell">
+                              <p>เวลาทำการ</p>
+                              <p>จันทร์ - ศุกร์ เวลา 08.30 - 16.00</p>
+                              <p>หยุด ทุกวันหยุดนักขัตฤกษ์</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container-fluid w3-center">
+                        © 2015 Copyright: <a href="http://www.phuket.psu.ac.th"> Prince of Songkla University, Phuket Campus </a>
+                    </div>
+                </div>
+            </footer>               
             </div>
             <div class="col-md-2">
             </div>

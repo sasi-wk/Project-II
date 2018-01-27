@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
         <div class="col-md-12">
-            <div class="w3-section">
+            <div class="w3-section style="width:100%"">
                 <asp:Image ID="Image4" runat="server" ImageUrl="~/Content/SlideShow/s1.jpg" CssClass="mySlides" Width="100%" />
                 <asp:Image ID="Image5" runat="server" ImageUrl="~/Content/SlideShow/s2.jpg" CssClass="mySlides" Width="100%" />
                 <asp:Image ID="Image6" runat="server" ImageUrl="~/Content/SlideShow/s3.jpg" CssClass="mySlides" Width="100%" />
@@ -19,12 +19,12 @@
                         <div class="panel panel-default">
                             <div class="panel-heading w3-center w3-lime">Link ที่มีประโยชน์</div>
                             <div class="panel-body">
-                               <div class="btn-group-vertical">
-                                    <asp:Button ID="Button1" runat="server" Text="กองทุนให้กู้ยืมเพื่อการศึกษา" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
-                                    <asp:Button ID="Button2" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
-                                    <asp:Button ID="Button3" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
-                                    <asp:Button ID="Button4" runat="server" Text="กองกิจการนักศึกษา มอ. ภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
-                                    <asp:Button ID="Button5" runat="server" Text="มอ. วิทยาเขตภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="195px" />
+                               <div class="btn-group-vertical" style="width:100%">
+                                    <asp:Button ID="Button1" runat="server" Text="กองทุนให้กู้ยืมเพื่อการศึกษา" CssClass="btn btn-default" BackColor="#BCC846" Width="100%" />
+                                    <asp:Button ID="Button2" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="100%" />
+                                    <asp:Button ID="Button3" runat="server" Text="ตรวจสอบโอนเงินและยอดหนี้" CssClass="btn btn-default" BackColor="#BCC846" Width="100%" />
+                                    <asp:Button ID="Button4" runat="server" Text="กองกิจการนักศึกษา มอ. ภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="100%" />
+                                    <asp:Button ID="Button5" runat="server" Text="มอ. วิทยาเขตภูเก็ต" CssClass="btn btn-default" BackColor="#BCC846" Width="100%" />
                                </div>
                             </div>
                         </div>

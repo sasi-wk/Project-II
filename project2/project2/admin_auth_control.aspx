@@ -17,7 +17,7 @@
                                     <asp:Button ID="BtnSearch" runat="server" Text="ค้นหา" OnClick="BtnSearch_Click" />
                                 </div>
                                 <br />
-                                <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="authPermission" BorderStyle="None" CssClass="table-responsive" GridLines="None" ShowHeader="False" Width="100%">
+                                <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="authPermission" BorderStyle="None" CssClass="table-responsive" GridLines="None" ShowHeader="False" Width="100%" AllowPaging="True">
                                     <Columns>
                                         <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
                                         <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
@@ -27,10 +27,7 @@
                                     </Columns>
                                     <RowStyle BorderStyle="None" />
                                 </asp:GridView>
-                                <br />
-                                <div class="w3-center">
-                                    <asp:Button ID="BtnSave" runat="server" Text="บันทีก" />
-                                </div>
+                                
                                
                                 <asp:SqlDataSource ID="authPermission" runat="server" ConnectionString="<%$ ConnectionStrings:psustfdbConnectionString %>" 
                                     DeleteCommand="DELETE FROM [auth] WHERE [Id] = @Id"
@@ -56,6 +53,9 @@
                                     </UpdateParameters>
                                 </asp:SqlDataSource>
                                
+                            </div>
+                            <div class="panel-footer w3-center w3-lime">
+                                    <asp:Button ID="BtnSave" runat="server" Text="บันทีก" />
                             </div>
                         </div>
                     </div>
