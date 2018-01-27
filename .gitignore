@@ -9,3 +9,14 @@
 *.dll
 *.cache
 *.cache
+*.config
+project2/.vs/project2/v15/.suo
+*.ide
+*.config
+*.dll
+*.pdb
+*.cache
+*.cache
+*.txt
+*.dll
+*.csproj
