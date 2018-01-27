@@ -290,6 +290,7 @@
     <Content Include="std_application6.aspx" />
     <Content Include="std_application7.aspx" />
     <Content Include="std_application8.aspx" />
+    <Content Include="std_application9.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -496,6 +497,13 @@
     </Compile>
     <Compile Include="std_application8.aspx.designer.cs">
       <DependentUpon>std_application8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="std_application9.aspx.cs">
+      <DependentUpon>std_application9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="std_application9.aspx.designer.cs">
+      <DependentUpon>std_application9.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
