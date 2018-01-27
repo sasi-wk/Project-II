@@ -199,59 +199,51 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="ApplySTD.aspx" />
+    <Content Include="admin_auth_control.aspx" />
+    <Content Include="admin_staff_control.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Image\9931698ed6d12f934cd66511e4026038_w.jpeg" />
-    <Content Include="Content\Image\9a0d9a027b7f85b50321b98c56986cc3_w.jpeg" />
+    <Content Include="Content\Image\001-manager.png" />
+    <Content Include="Content\Image\002-admin-with-cogwheels.png" />
+    <Content Include="Content\Image\003-people.jpg" />
+    <Content Include="Content\Image\003-people.png" />
     <Content Include="Content\Image\abc.jpg" />
     <Content Include="Content\Image\building.png" />
-    <Content Include="Content\Image\calendar-2027121_960_720.png" />
     <Content Include="Content\Image\call-center.png" />
     <Content Include="Content\Image\clock.png" />
-    <Content Include="Content\Image\contact.jpg" />
     <Content Include="Content\Image\edit.png" />
     <Content Include="Content\Image\email.png" />
     <Content Include="Content\Image\envelope.png" />
     <Content Include="Content\Image\facebook.png" />
-    <Content Include="Content\Image\Home-icon-2.png" />
-    <Content Include="Content\Image\icon_0home.png" />
-    <Content Include="Content\Image\images.png" />
     <Content Include="Content\Image\img_avatar2.png" />
     <Content Include="Content\Image\img_avatar5.png" />
     <Content Include="Content\Image\img_avatar6.png" />
-    <Content Include="Content\Image\khbnh-3.png" />
     <Content Include="Content\Image\kys.jpg" />
     <Content Include="Content\Image\logo8.gif" />
     <Content Include="Content\Image\m.png" />
-    <Content Include="Content\Image\ogin.png" />
-    <Content Include="Content\Image\Package-upload-icon.png" />
-    <Content Include="Content\Image\s1.jpg" />
-    <Content Include="Content\Image\s1.png" />
-    <Content Include="Content\Image\s10.jpg" />
-    <Content Include="Content\Image\s2.jpg" />
-    <Content Include="Content\Image\s2.png" />
-    <Content Include="Content\Image\s3.jpg" />
-    <Content Include="Content\Image\s3.png" />
-    <Content Include="Content\Image\s4.jpg" />
-    <Content Include="Content\Image\s4.png" />
-    <Content Include="Content\Image\s5.jpg" />
-    <Content Include="Content\Image\s5.png" />
-    <Content Include="Content\Image\s6.jpg" />
-    <Content Include="Content\Image\s7.jpg" />
-    <Content Include="Content\Image\s8.jpg" />
-    <Content Include="Content\Image\s9.jpg" />
-    <Content Include="Content\Image\student.png" />
     <Content Include="Content\Image\student_loan_ipemk.png" />
     <Content Include="Content\Image\t.png" />
-    <Content Include="Content\Image\Teachers-icon.png" />
-    <Content Include="Content\Image\upload-1118928_960_720.png" />
     <Content Include="Content\Image\view.png" />
     <Content Include="Content\Image\w1.jpg" />
     <Content Include="Content\Image\w2.jpg" />
     <Content Include="Content\Image\w3.jpg" />
     <Content Include="Content\Image\youtube.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\SlideShow\s1.jpg" />
+    <Content Include="Content\SlideShow\s1.png" />
+    <Content Include="Content\SlideShow\s10.jpg" />
+    <Content Include="Content\SlideShow\s2.jpg" />
+    <Content Include="Content\SlideShow\s2.png" />
+    <Content Include="Content\SlideShow\s3.jpg" />
+    <Content Include="Content\SlideShow\s3.png" />
+    <Content Include="Content\SlideShow\s4.jpg" />
+    <Content Include="Content\SlideShow\s4.png" />
+    <Content Include="Content\SlideShow\s5.jpg" />
+    <Content Include="Content\SlideShow\s5.png" />
+    <Content Include="Content\SlideShow\s6.jpg" />
+    <Content Include="Content\SlideShow\s7.jpg" />
+    <Content Include="Content\SlideShow\s8.jpg" />
+    <Content Include="Content\SlideShow\s9.jpg" />
     <Content Include="Content\w3.css" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -263,7 +255,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="HomeEdit.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -273,6 +265,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\styles.css" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -297,26 +290,8 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="SelectCon.aspx" />
-    <Content Include="SendSTD.aspx" />
     <Content Include="Site.Master" />
-<<<<<<< HEAD
-    <Content Include="std_application1.aspx" />
-    <Content Include="std_application2.aspx" />
-    <Content Include="std_application3.aspx" />
-    <Content Include="std_application4.aspx" />
-    <Content Include="std_application6.aspx" />
-    <Content Include="std_application7.aspx" />
-    <Content Include="std_application8.aspx" />
-    <Content Include="std_application9.aspx" />
-=======
-    <Content Include="Staffedit.aspx" />
-    <Content Include="STDlist.aspx" />
-    <Content Include="STDneed.aspx" />
-    <Content Include="STDSelect.aspx" />
-    <Content Include="Uploaddoc.aspx" />
-    <Content Include="Uploadpic.aspx" />
->>>>>>> origin/Game
+    <Content Include="Staff-select.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -437,12 +412,19 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ApplySTD.aspx.cs">
-      <DependentUpon>ApplySTD.aspx</DependentUpon>
+    <Compile Include="admin_auth_control.aspx.cs">
+      <DependentUpon>admin_auth_control.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ApplySTD.aspx.designer.cs">
-      <DependentUpon>ApplySTD.aspx</DependentUpon>
+    <Compile Include="admin_auth_control.aspx.designer.cs">
+      <DependentUpon>admin_auth_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_staff_control.aspx.cs">
+      <DependentUpon>admin_staff_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_staff_control.aspx.designer.cs">
+      <DependentUpon>admin_staff_control.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -465,29 +447,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="HomeEdit.aspx.cs">
-      <DependentUpon>HomeEdit.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HomeEdit.aspx.designer.cs">
-      <DependentUpon>HomeEdit.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectCon.aspx.cs">
-      <DependentUpon>SelectCon.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SelectCon.aspx.designer.cs">
-      <DependentUpon>SelectCon.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SendSTD.aspx.cs">
-      <DependentUpon>SendSTD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SendSTD.aspx.designer.cs">
-      <DependentUpon>SendSTD.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -502,107 +470,14 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Staffedit.aspx.cs">
-      <DependentUpon>Staffedit.aspx</DependentUpon>
+    <Compile Include="Staff-select.aspx.cs">
+      <DependentUpon>Staff-select.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Staffedit.aspx.designer.cs">
-      <DependentUpon>Staffedit.aspx</DependentUpon>
+    <Compile Include="Staff-select.aspx.designer.cs">
+      <DependentUpon>Staff-select.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-<<<<<<< HEAD
-    <Compile Include="std_application1.aspx.cs">
-      <DependentUpon>std_application1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application1.aspx.designer.cs">
-      <DependentUpon>std_application1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application2.aspx.cs">
-      <DependentUpon>std_application2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application2.aspx.designer.cs">
-      <DependentUpon>std_application2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application3.aspx.cs">
-      <DependentUpon>std_application3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application3.aspx.designer.cs">
-      <DependentUpon>std_application3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application4.aspx.cs">
-      <DependentUpon>std_application4.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application4.aspx.designer.cs">
-      <DependentUpon>std_application4.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application6.aspx.cs">
-      <DependentUpon>std_application6.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application6.aspx.designer.cs">
-      <DependentUpon>std_application6.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application7.aspx.cs">
-      <DependentUpon>std_application7.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application7.aspx.designer.cs">
-      <DependentUpon>std_application7.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application8.aspx.cs">
-      <DependentUpon>std_application8.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application8.aspx.designer.cs">
-      <DependentUpon>std_application8.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="std_application9.aspx.cs">
-      <DependentUpon>std_application9.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="std_application9.aspx.designer.cs">
-      <DependentUpon>std_application9.aspx</DependentUpon>
-=======
-    <Compile Include="STDlist.aspx.cs">
-      <DependentUpon>STDlist.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="STDlist.aspx.designer.cs">
-      <DependentUpon>STDlist.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="STDneed.aspx.cs">
-      <DependentUpon>STDneed.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="STDneed.aspx.designer.cs">
-      <DependentUpon>STDneed.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="STDSelect.aspx.cs">
-      <DependentUpon>STDSelect.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="STDSelect.aspx.designer.cs">
-      <DependentUpon>STDSelect.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Uploaddoc.aspx.cs">
-      <DependentUpon>Uploaddoc.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Uploaddoc.aspx.designer.cs">
-      <DependentUpon>Uploaddoc.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Uploadpic.aspx.cs">
-      <DependentUpon>Uploadpic.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Uploadpic.aspx.designer.cs">
-      <DependentUpon>Uploadpic.aspx</DependentUpon>
->>>>>>> origin/Game
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
